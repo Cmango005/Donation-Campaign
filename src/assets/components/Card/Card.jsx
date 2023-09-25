@@ -22,7 +22,7 @@ const Card = ({card}) => {
           <h2 style={titleStyle} >{title}</h2>
           <p style={titleStyle}>{name}</p>
           </div>
-           </Link>
+          </Link>
         </div>
     );
 };

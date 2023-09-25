@@ -9,7 +9,7 @@ const Header = () => {
            </div>
            <div className="flex-none">
                 <nav className="menu menu-horizontal gap-14 px-1">
-                 <NavLink to="/home">Home</NavLink>
+                 <NavLink to="/">Home</NavLink>
                  <NavLink to="/donation">Donation</NavLink>
                  <NavLink to="/static">Statistics</NavLink>
                 </nav>

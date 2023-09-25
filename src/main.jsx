@@ -9,15 +9,16 @@ import Root from './assets/components/Roots/Root';
 import Home from './assets/components/Home/Home';
 import Donation from './assets/components/Donation/Donation';
 import Static from './assets/components/Static/Static';
-import DonationsDetails from './assets/components/Donations/DonationsDetails';
+import Details from './assets/components/Details/Details';
+
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
     children:[
      {
-      path:"/home",
-      loader:()=> fetch('donation.json'),
+      path:"/",
+      loader:()=> fetch('/donation.json'),
       element:<Home></Home>
      },
      {
@@ -30,8 +31,9 @@ const router = createBrowserRouter([
 
      },
      {
-      path:"/card/:id",
-      element:<DonationsDetails></DonationsDetails>
+      path:'/card/:id',
+      loader: () =>  fetch('../donation.json'),
+      element:<Details></Details>
      }
 
     ]
@@ -43,3 +45,4 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <RouterProvider router={router} ></RouterProvider>
   </React.StrictMode>,
 )
+
