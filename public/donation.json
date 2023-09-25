@@ -1,0 +1,138 @@
+[
+  
+    {
+      "img": "https://i.ibb.co/5MJbYkv/Health.png",
+      "title": "Health",
+      "id": 1,
+      "name": "Clean water for children",
+      "background_color": "#a092e0",
+      "text_color": "#2609b0",
+      "donate_amount": 290,
+      "description":
+        "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential."
+      
+    },
+    {
+      "img": "https://i.ibb.co/fX4cjZg/Education.png",
+      "title": "Education",
+      "id": 2,
+      "name": "Good education",
+      "background_color": "#ebc3c5",
+      "text_color": "#ff3344",
+      "donate_amount": 290,
+      "description":
+        "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential."
+    },
+    {
+      "img": "https://i.ibb.co/yFC5sn5/Clothing.png",
+      "title": "Clothing",
+      "id": 3,
+      "name": "Used Clothing Drive",
+      "background_color": "#c3ebd4",
+      "text_color": "#14b329",
+      "donate_amount": 290,
+      "description":
+        "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential."
+    },
+    {
+      "img": "https://i.ibb.co/6gJX1ZD/Food.png",
+      "title": "Food",
+      "id": 4,
+      "name": "Better Food for Everyone",
+      "background_color": "#ebe5b2",
+      "text_color": "#bf7639",
+      "donate_amount": 290,
+      "description":
+        "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential."
+    },
+    {
+        "img": "https://i.ibb.co/6gJX1ZD/Food.png",
+        "title": "Food",
+        "id": 5,
+        "name": "Better Food for Everyone",
+        "background_color": "#ebe5b2",
+        "text_color": "#bf7639",
+        "donate_amount": 290,
+        "description":
+        "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential."
+      },
+      {
+        "img":"https://i.ibb.co/yFC5sn5/Clothing.png",
+        "title": "Clothing",
+        "id": 6,
+        "name": "Item Three",
+        "background_color": "#c3ebd4",
+        "text_color": "#14b329",
+        "donate_amount": 290,
+        "description":
+        "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential."
+      },
+      {
+        "img": "https://i.ibb.co/fX4cjZg/Education.png",
+        "title": "Education",
+        "id": 7,
+        "name": "Education",
+        "background_color": "#ebc3c5",
+        "text_color": "#ff3344",
+        "donate_amount": 290,
+        "description":
+        "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential."
+      },
+      {
+        "img": "https://i.ibb.co/5MJbYkv/Health.png",
+        "title": "Health",
+        "id": 8,
+        "name": "Clean water for children",
+        "background_color": "#a092e0",
+        "text_color": "#2609b0",
+        "donate_amount": 290,
+        "description":
+        "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential."
+      },
+      {
+        "img": "https://i.ibb.co/5MJbYkv/Health.png",
+        "title": "Health",
+        "id": 9,
+        "name": "Clean water for children",
+        "background_color": "#a092e0",
+        "text_color": "#2609b0",
+        "donate_amount": 290,
+        "description":
+          "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential."
+        
+      },
+      {
+        "img": "https://i.ibb.co/fX4cjZg/Education.png",
+        "title": "Education",
+        "id": 10,
+        "name": "Good education",
+        "background_color": "#ebc3c5",
+        "text_color": "#ff3344",
+        "donate_amount": 290,
+        "description":
+          "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential."
+      },
+      {
+        "img": "https://i.ibb.co/yFC5sn5/Clothing.png",
+        "title": "Clothing",
+        "id": 11,
+        "name": "Used Clothing Drive",
+        "background_color": "#c3ebd4",
+        "text_color": "#14b329",
+        "donate_amount": 290,
+        "description":
+          "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential."
+      },
+      {
+        "img": "https://i.ibb.co/6gJX1ZD/Food.png",
+        "title": "Food",
+        "id": 12,
+        "name": "Better Food for Everyone",
+        "background_color": "#ebe5b2",
+        "text_color": "#bf7639",
+        "donate_amount": 290,
+        "description":
+          "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential."
+      }
+  ]
+  
