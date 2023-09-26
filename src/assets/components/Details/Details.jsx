@@ -12,9 +12,9 @@ const Details = () => {
         toast("Donate Successfully");
     }
     return (
-        <div className="flex">
+        <div className="flex container mx-auto">
             <div>
-            <div className="container mx-auto flex flex-col items-center">
+            <div className=" flex flex-col items-center">
             <img className="w-8/12" src={detail.img} alt="" />
             <div className="-mt-24 w-8/12 p-4 bg-[#121212b3]"><Link to="/donation"><button onClick={handleDonation} className="p-5 border-2  hover:text-white text-black bg-red-500 font-bold rounded-lg">Donate {detail.donate_amount}$</button></Link></div>
             <h2 className="font-bold text-4xl">{detail.name}</h2>

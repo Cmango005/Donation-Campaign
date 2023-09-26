@@ -1,10 +1,8 @@
-import PropTypes from 'prop-types';
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
-const Card = ({card}) => {
-    const {img,title,name,background_color,text_color,id}=card;
-    
-     
+
+const Search = ({item}) => {
+    const {img,title,name,background_color,text_color,id}=item;
     const cardStyle = {
         backgroundColor: background_color,
         
@@ -13,9 +11,12 @@ const Card = ({card}) => {
         color: text_color,
         
       };
-
     return (
-        <div>
+      
+        <div className="h-screen">
+            <p className="font-bold text-5xl">Searched Result</p>
+            <div className="">
+                
            <Link to={`/card/${id}`}>
            <div style={cardStyle}  className="card-body w-72 mt-5 rounded-xl bg-base-100 shadow-2xl" >
           <div className='w-56 '><img  src={img} alt="" /></div>
@@ -24,10 +25,9 @@ const Card = ({card}) => {
           </div>
           </Link>
         </div>
+        </div>
+       
     );
 };
-Card.propTypes={
-    card: PropTypes.object
- }
 
-export default Card;
+export default Search;

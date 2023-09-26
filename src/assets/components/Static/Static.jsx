@@ -1,17 +1,18 @@
-import { PieChart,Pie, Tooltip} from 'recharts';
-
 
 import { useLoaderData } from "react-router-dom";
+import { PieChart,Pie, Tooltip } from "recharts";
+
 const Static = () => {
-    const home= useLoaderData();
+    
+   const data1=useLoaderData();
     return (
         <div>
-            <PieChart width={730} height={250}>
-            <Pie data={home} dataKey="value" nameKey="name" cx="50%" cy="50%" outerRadius={50} fill="#8884d8" />
-            <Tooltip></Tooltip>
-            <Pie data={0} dataKey="value" nameKey="name" cx="50%" cy="50%" innerRadius={60} outerRadius={80} fill="#82ca9d" label />
-            </PieChart>
-
+            <PieChart width={1030} height={550}>
+  <Pie data={data1} dataKey="donate_amount" nameKey="name" cx="70%" cy="60%" outerRadius={100} fill="#8884d8" />
+  <Tooltip></Tooltip>
+ 
+  
+</PieChart>
         </div>
     );
 };

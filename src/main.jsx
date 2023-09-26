@@ -28,8 +28,8 @@ const router = createBrowserRouter([
      },
      {
       path:"/static",
-      element:<Static></Static>
-
+      element:<Static></Static>,
+      loader: ()=>fetch('/donation.json'),
      },
      {
       path:'/card/:id',
