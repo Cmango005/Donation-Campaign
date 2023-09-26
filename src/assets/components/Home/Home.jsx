@@ -33,7 +33,7 @@ const Home = () => {
             <div>
               {
                 handleSearchClick ?
-                <div className="grid grid-cols-3">
+                <div className="grid grid-cols-3 mx-auto container">
                   {
                filteredCards.map((item) => <Search key={item.id} item={item}></Search>)
               }

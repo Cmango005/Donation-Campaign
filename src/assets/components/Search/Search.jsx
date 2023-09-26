@@ -15,8 +15,8 @@ const Search = ({item}) => {
       
         <div className="h-screen">
             <p className="font-bold text-5xl">Searched Result</p>
-            <div className="">
-                
+            <div >
+                 
            <Link to={`/card/${id}`}>
            <div style={cardStyle}  className="card-body w-72 mt-5 rounded-xl bg-base-100 shadow-2xl" >
           <div className='w-56 '><img  src={img} alt="" /></div>

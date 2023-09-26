@@ -1,5 +1,6 @@
 import { Link, useLoaderData, useParams } from "react-router-dom";
 import { ToastContainer, toast } from 'react-toastify';
+
 import 'react-toastify/dist/ReactToastify.css';
 import { saveDonation } from "../utility/localstorage";
 const Details = () => {
@@ -10,9 +11,15 @@ const Details = () => {
     const handleDonation =()=>{
         saveDonation(idInt);
         toast("Donate Successfully");
+        
+            const isExist=details.find(detail=> detail.id===idInt);
+            
+            if (isExist){
+               toast("Already Taken");
+            }
     }
     return (
-        <div className="flex container mx-auto">
+        <div className="flex ">
             <div>
             <div className=" flex flex-col items-center">
             <img className="w-8/12" src={detail.img} alt="" />
@@ -20,10 +27,9 @@ const Details = () => {
             <h2 className="font-bold text-4xl">{detail.name}</h2>
             <p className="w-3/4">{detail.description}</p>
             </div>
-            </div>
-            <div>
             <ToastContainer />
             </div>
+            
         </div>
     );
 };
