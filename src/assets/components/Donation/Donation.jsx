@@ -1,7 +1,7 @@
 import  { useEffect, useState } from "react";
 import { Link, useLoaderData } from "react-router-dom";
 import { getStoredDonation } from "../utility/localstorage";
-import Static from "../Static/Static";
+
 
 const Donation = () => {
   const donations = useLoaderData();
@@ -65,7 +65,7 @@ const Donation = () => {
       {
         appliedDonations.length>0 && <div className="text-center ml-48 mt-5"><button onClick={handleCancel} className="border-2 rounded-lg text-white shadow-2xl px-3 py-2 bg-blue-500">Cancel Donate</button></div>
       }
-      <Static donations={appliedDonations} />
+     
     </div>
   );
 };
