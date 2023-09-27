@@ -1,6 +1,7 @@
-import React, { useEffect, useState } from "react";
+import  { useEffect, useState } from "react";
 import { Link, useLoaderData } from "react-router-dom";
 import { getStoredDonation } from "../utility/localstorage";
+import Static from "../Static/Static";
 
 const Donation = () => {
   const donations = useLoaderData();
@@ -39,7 +40,7 @@ const Donation = () => {
               <img className="w-52 h-44" src={donation.img} alt="" />
             </div>
             <div className="mt-3 space-y-2">
-              <h3 style={{ color: donation.text_color }} className="font-bold shadow-2xl">
+              <h3 style={{ color: donation.text_color,backgroundColor: donation.bg_2 }} className="font-bold shadow-2xl w-20 rounded-lg py-1 text-center">
                 {donation.title}
               </h3>
               <h2 className="font-bold text-lg">{donation.name}</h2>
@@ -58,17 +59,13 @@ const Donation = () => {
       ))}
       {!showAll && appliedDonations.length > 4 && 
         <div className="text-center ml-96 mt-5">
-          <button
-            className="border-2 rounded-lg text-white shadow-2xl px-3 py-2 bg-blue-500"
-            onClick={handleShowAll}
-          >
-            Show All
-          </button>
+        <button className="border-2 rounded-lg text-white shadow-2xl px-3 py-2 bg-blue-500" onClick={handleShowAll}>Show All</button>
         </div>
       }
       {
         appliedDonations.length>0 && <div className="text-center ml-48 mt-5"><button onClick={handleCancel} className="border-2 rounded-lg text-white shadow-2xl px-3 py-2 bg-blue-500">Cancel Donate</button></div>
       }
+      <Static donations={appliedDonations} />
     </div>
   );
 };

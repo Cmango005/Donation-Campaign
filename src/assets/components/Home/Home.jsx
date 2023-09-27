@@ -23,7 +23,7 @@ const Home = () => {
                <div className="form-control flex ml-3 mt-5">
                    <label className="input-group">
                      <input type="text" placeholder="Search here..." value={searchText}
-                onChange={(e) => setSearchText(e.target.value)} className="input input-bordered" />
+                      onChange={(e) => setSearchText(e.target.value)} className="input input-bordered" />
                      <button onClick={handleSearchClick} className="btn btn-active hover:bg-red-500 hover:text-white btn-ghost ">Search</button>
                    </label>
               </div>

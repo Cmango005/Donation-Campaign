@@ -2,25 +2,15 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
 const Card = ({card}) => {
-    const {img,title,name,background_color,text_color,id}=card;
-    
-     
-    const cardStyle = {
-        backgroundColor: background_color,
-        
-      };
-      const titleStyle = {
-        color: text_color,
-        
-      };
+    const {img,title,name,background_color,text_color,id,bg_2}=card;
 
     return (
-        <div>
+        <div className='ml-2'>
            <Link to={`/card/${id}`}>
-           <div style={cardStyle}  className="card-body w-72 mt-5 rounded-xl bg-base-100 shadow-2xl" >
+           <div style={{backgroundColor: background_color,}}  className="card-body w-72 mt-5 rounded-xl bg-base-100 shadow-2xl" >
           <div className='w-56 '><img  src={img} alt="" /></div>
-          <h2 style={titleStyle} >{title}</h2>
-          <p style={titleStyle}>{name}</p>
+          <h2 style={{color: text_color,backgroundColor: bg_2}} className='w-20 rounded-lg py-1 text-center'>{title}</h2>
+          <p style={{color: text_color}}>{name}</p>
           </div>
           </Link>
         </div>
