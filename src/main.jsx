@@ -8,8 +8,8 @@ import {
 import Root from './assets/components/Roots/Root';
 import Home from './assets/components/Home/Home';
 import Donation from './assets/components/Donation/Donation';
-import Static from './assets/components/Static/Static';
 import Details from './assets/components/Details/Details';
+import Static from './assets/components/Static/Static';
 
 const router = createBrowserRouter([
   {
@@ -28,18 +28,15 @@ const router = createBrowserRouter([
      },
      {
       path:"/static",
-      element:<Static></Static>,
-      loader: ()=>fetch('/donation.json'),
+      element:<Static></Static>
+      
      },
      {
       path:'/card/:id',
       loader: () =>  fetch('../donation.json'),
       element:<Details></Details>
      },
-     {
-      path:"/static",
-      element:<Static></Static>
-     }
+     
 
     ]
   },
